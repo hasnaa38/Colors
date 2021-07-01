@@ -1,0 +1,86 @@
+body { 
+  background-color: whitesmoke; 
+  font-family: system-ui;
+}
+
+/* header styles  */
+header {
+  height: 200px;
+  background-image: url("https://p4.wallpaperbetter.com/wallpaper/1001/421/277/space-nebula-blue-and-red-galaxies-red-and-green-nebula-wallpaper-preview.jpg"); 
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+
+h1 {
+  text-align: center; 
+  font-size: 50px; color: whitesmoke;   
+  }
+
+nav { 
+  display: inline;
+  text-align: center; 
+  font-size: 25px; 
+  }
+
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+  text-decoration: none; 
+  background-color: whitesmoke;
+  color: maroon;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+/* body styles */
+
+h3 { 
+  color: maroon; 
+}
+
+img {
+  width: 150px;
+  height: 150px; 
+}
+
+#BlueDiv { 
+  float: left;
+  width:33%;
+  height: 900px; 
+  text-align: center; 
+ }
+
+ #BlueDiv h4 { 
+   color: rgb(0, 0, 218);
+ }
+
+ #RedDiv { 
+   float: left; 
+   width:33%;
+   height: 900px; 
+   text-align: center; 
+ }
+
+ #RedDiv h4 { 
+   color: rgb(223, 0, 0); 
+ }
+
+ #YellowDiv { 
+   float: right;
+   width:33%;
+   height: 900px; 
+   text-align: center; 
+ }
+
+ #YellowDiv h4 { 
+   color: #e6cf00; 
+ }
+
+
+
+/* footer styles  */
+
+footer { 
+  text-align: center; 
+}
