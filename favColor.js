@@ -1,7 +1,15 @@
 //This script tells the user what their favorite primary color means 
 
-var name = "user"; var favColor = "color"; var times = 0; var crestImg = ""; 
- function favColorButton() {
+var name; var favColor; var times; var crestImg; 
+
+function favColor() { 
+  name = name = prompt("Please enter you name:")
+  favColor = prompt("Hello " + name + ". Please pick one of the following primary color options: blue, red, yellow")
+  return name, favColor; 
+}
+
+// Info about color button function:
+function favColorButton() {
   name = prompt("Please enter you name:")
   favColor = prompt("Hello " + name + ". Please pick one of the following primary color options: blue, red, yellow")
  
@@ -32,7 +40,6 @@ var name = "user"; var favColor = "color"; var times = 0; var crestImg = "";
   }
 
 }
-
 
 //Repeat Images function: 
 
